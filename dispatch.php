@@ -1,5 +1,8 @@
 <?php
-
+	$callerName = $_POST["callerName"];
+	echo "caller name:" . $callerName . "<br>";
+	$contactNo = $_POST["contactNo"];
+	echo "contactNo" . $contactNo . "<br>";
 ?>
 <!doctype html>
 <html>
